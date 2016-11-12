@@ -1,0 +1,45 @@
+@import "fonts";
+@import "colors";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: $darkBlue;
+  color: $standardWhite;
+}
+
+option,
+select {
+  color: $darkBlue;
+}
+
+.dkBlue {
+  color: $darkBlue;
+}
+
+.centerThis {
+  text-align: center;
+}
+
+.topSpace {
+  margin-top: 10px;
+}
+
+.sub {
+  background: $standardWhite;
+  border-radius: 10px;
+  color: $darkBlue;
+}
+
+.padThis {
+  padding: 10px;
+}
+
+.line {
+  background: $darkBlue;
+  border-radius: 15px;
+  color: $standardWhite;
+}
